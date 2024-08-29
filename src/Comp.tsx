@@ -75,7 +75,7 @@ const ExtendedThematicEscapeRoomChallenge = () => {
     },
   ];
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     if (
       answers[currentPuzzle].toLowerCase() === puzzles[currentPuzzle].answer
@@ -93,7 +93,7 @@ const ExtendedThematicEscapeRoomChallenge = () => {
     }
   };
 
-  const handleAnswerChange = (e) => {
+  const handleAnswerChange = (e: any) => {
     const newAnswers = [...answers];
     newAnswers[currentPuzzle] = e.target.value;
     setAnswers(newAnswers);
