@@ -102,7 +102,7 @@ const ExtendedThematicEscapeRoomChallenge = () => {
   return (
     <Card className="w-[350px]">
       <CardHeader>
-        <CardTitle>Tematisk Escape Room Utmaning</CardTitle>
+        <CardTitle>gullrumpa, dags att värma upp knoppen</CardTitle>
         <CardDescription>
           Lös alla pussel för att låsa upp det hemliga meddelandet. Du får gärna
           ta hjälp för att lösa gåtorna!
